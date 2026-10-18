@@ -59,8 +59,7 @@ void quickSort(T* array, int size) {
     quickSortRange(array, 0, size - 1);
 }
 
-// Явное инстанцирование шаблона: реализация находится в .cpp файле,
-// поэтому здесь перечислены типы, для которых библиотека собирает функцию.
+// Здесь перечислены типы, для которых библиотека собирает функцию.
 template void quickSort<int>(int*, int);
 template void quickSort<long long>(long long*, int);
 template void quickSort<float>(float*, int);

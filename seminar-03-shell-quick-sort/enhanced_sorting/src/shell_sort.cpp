@@ -37,8 +37,7 @@ void shellSort(T* array, int size) {
     }
 }
 
-// Явное инстанцирование шаблона: реализация находится в .cpp файле,
-// поэтому здесь перечислены типы, для которых библиотека собирает функцию.
+// Здесь перечислены типы, для которых библиотека собирает функцию.
 template void shellSort<int>(int*, int);
 template void shellSort<long long>(long long*, int);
 template void shellSort<float>(float*, int);

@@ -26,8 +26,7 @@ void bubbleSort(T* array, int size) {
     }
 }
 
-// Явное инстанцирование шаблона: реализация находится в .cpp файле,
-// поэтому здесь перечислены типы, для которых библиотека собирает функцию.
+// Здесь перечислены типы, для которых библиотека собирает функцию.
 template void bubbleSort<int>(int*, int);
 template void bubbleSort<long long>(long long*, int);
 template void bubbleSort<float>(float*, int);

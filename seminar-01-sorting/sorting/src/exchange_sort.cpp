@@ -25,8 +25,7 @@ void exchangeSort(T* array, int size) {
     }
 }
 
-// Явное инстанцирование шаблона: реализация находится в .cpp файле,
-// поэтому здесь перечислены типы, для которых библиотека собирает функцию.
+// Здесь перечислены типы, для которых библиотека собирает функцию.
 template void exchangeSort<int>(int*, int);
 template void exchangeSort<long long>(long long*, int);
 template void exchangeSort<float>(float*, int);

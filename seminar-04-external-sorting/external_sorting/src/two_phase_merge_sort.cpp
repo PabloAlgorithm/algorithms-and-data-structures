@@ -216,8 +216,7 @@ void twoPhaseMergeSort(T* array, int size) {
     std::remove(fileName.c_str());
 }
 
-// Явное инстанцирование шаблонов: реализация находится в .cpp файле,
-// поэтому здесь перечислены типы, для которых библиотека собирает функции.
+// Здесь перечислены типы, для которых библиотека собирает функции.
 template void twoPhaseMergeSortFile<int>(const std::string&);
 template void twoPhaseMergeSortFile<long long>(const std::string&);
 template void twoPhaseMergeSortFile<float>(const std::string&);

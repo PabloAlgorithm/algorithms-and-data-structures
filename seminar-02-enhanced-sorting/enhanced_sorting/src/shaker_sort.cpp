@@ -45,8 +45,7 @@ void shakerSort(T* array, int size) {
     }
 }
 
-// Явное инстанцирование шаблона: реализация находится в .cpp файле,
-// поэтому здесь перечислены типы, для которых библиотека собирает функцию.
+// Здесь перечислены типы, для которых библиотека собирает функцию.
 template void shakerSort<int>(int*, int);
 template void shakerSort<long long>(long long*, int);
 template void shakerSort<float>(float*, int);

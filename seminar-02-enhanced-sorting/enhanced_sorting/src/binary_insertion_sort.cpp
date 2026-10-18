@@ -42,8 +42,7 @@ void binaryInsertionSort(T* array, int size) {
     }
 }
 
-// Явное инстанцирование шаблона: реализация находится в .cpp файле,
-// поэтому здесь перечислены типы, для которых библиотека собирает функцию.
+// Здесь перечислены типы, для которых библиотека собирает функцию.
 template void binaryInsertionSort<int>(int*, int);
 template void binaryInsertionSort<long long>(long long*, int);
 template void binaryInsertionSort<float>(float*, int);

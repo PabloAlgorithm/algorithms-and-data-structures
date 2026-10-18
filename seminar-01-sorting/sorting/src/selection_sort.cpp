@@ -30,8 +30,7 @@ void selectionSort(T* array, int size) {
     }
 }
 
-// Явное инстанцирование шаблона: реализация находится в .cpp файле,
-// поэтому здесь перечислены типы, для которых библиотека собирает функцию.
+// Здесь перечислены типы, для которых библиотека собирает функцию.
 template void selectionSort<int>(int*, int);
 template void selectionSort<long long>(long long*, int);
 template void selectionSort<float>(float*, int);

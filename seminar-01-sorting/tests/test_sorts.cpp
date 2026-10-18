@@ -13,8 +13,7 @@
 #include "optimized_bubble_sort.h"
 
 // Создаёт массив из count псевдослучайных чисел в диапазоне [-500, 500].
-// Используется линейный конгруэнтный генератор с фиксированным начальным
-// значением, поэтому при каждом запуске тестов данные одни и те же.
+
 static std::vector<int> makeRandomVector(int count) {
     std::vector<int> result;
     result.reserve(count);
