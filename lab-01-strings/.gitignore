@@ -1,0 +1,12 @@
+.vs/
+x64/
+Debug/
+Release/
+build/
+*.user
+*.suo
+*.exe
+*.obj
+*.pdb
+*.lib
+output.txt

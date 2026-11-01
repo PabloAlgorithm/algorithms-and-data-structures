@@ -175,8 +175,8 @@ void twoPhaseMergeSortFile(const std::string& fileName) {
     }
 
     // Удаляем вспомогательные файлы
-    std::remove(fileB.c_str());
-    std::remove(fileC.c_str());
+     // std::remove(fileB.c_str());
+     // std::remove(fileC.c_str());
 }
 
 // ----------------------------------------------------------------------------
